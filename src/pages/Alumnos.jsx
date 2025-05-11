@@ -40,7 +40,7 @@ function Alumnos() {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://172.210.137.100:8080/alumnos", {
+      const res = await fetch("http://172.210.137.100:8080/api/alumnos", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
